@@ -17,11 +17,6 @@ html {
     
 }
 
-.strokeme {
-    color: white;
-    font-size: 250px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  }
 
 
 .O{
@@ -42,7 +37,7 @@ html {
     height:250px;
     background-color: blue;
     border-radius:999999px;
-    position:relative;
+    
     
 
     
@@ -53,7 +48,7 @@ html {
     height:250px;
     background-color:yellow;
     border-radius: 9999999px;
-    position:relative;
+   
 }
 
 .O .div3{
@@ -61,28 +56,57 @@ html {
     height:250px;
     background-color: white;
     border-radius:999999px;
-    position:relative;
+   
 }
 
 .O .div4{
     width:250px;
     height:250px;
-    background-color:rgb(194, 87, 87);
+    background-color:rgb(168, 114, 52);
     border-radius:999999px;
-    position:relative;
+    
 }
 
-/* .O .inner{
+.O .inner{
+    width:240px;
+    height:240px;
+    padding-top: 5px;
+    margin-left:5px;
+    border-radius: 999999px;
+    background-color:black;
     display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .div11{
     
-    width:50px;
-    height:50px;
+    width:90px;
+    height:90px;
     border-radius:999999px;
-    background-color:red;
+    background-color:blue;
 
-} */
+}
+
+.div12{
+    width:90px;
+    height:90px;
+    border-radius:999999px;
+    background-color: yellow;
+}
+
+.div13{
+    width:90px;
+    height:90px;
+    border-radius: 999999px;
+    background-color: white;
+}
+
+.div14{
+    width:90px;
+    height:90px;
+    border-radius: 999999px;
+    background-color: rgb(168, 114, 52);
+}
+
