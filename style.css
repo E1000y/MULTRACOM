@@ -54,6 +54,7 @@ html {
 .O .div3{
     width:250px;
     height:250px;
+    padding-top:5px;
     background-color: white;
     border-radius:999999px;
    
