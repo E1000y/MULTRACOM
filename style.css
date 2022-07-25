@@ -1,3 +1,5 @@
+/* css début de page*/
+
 html {
     font-size: 62.5%;
 }
@@ -8,21 +10,89 @@ html {
     padding:0px;
 }
 
-.logo{
-    color:blue;
+body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 250px;
-    font-weight: 900;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 8px 8px 8px orange;
+
+}
+
+
+/* navigation */
+
+nav{
+    position:fixed;
+    height:70px;
+    width:100%;
+    background-color: black;
     
 }
+
+/* hamburger menu logo */
+.hamburger-logo-menu{
+    position : absolute;
+    top :15px;
+    right:15px;
+    width : 50px;
+    height:50px;
+    z-index:25;
+    display:none;
+}
+
+.liste-nav{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    list-style-type: none;
+    
+    
+    
+}
+
+.item-nav{
+    font-size: 40px;
+    color:#f1f1f1;
+    
+    text-align:center;
+    align-items: center;
+    margin:auto;
+
+}
+
+.item-nav a{
+    text-decoration: none;
+    color:#f1f1f1;
+    margin:0 20px;
+    text-transform:uppercase;
+}
+
+
+/*section accueil*/
+
+
+.accueil{
+    padding-top:1px;
+    width:100%;
+    height:100vh;
+    min-height:970px;
+    background-image:url(Logos/city1.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-bottom: 1px dotted #777;
+}
+
+
+
+
+/*logo symbolisant un câble de télécoms*/
 
 
 
 .O{
 
-    width:650px;
-    height:650px;
+    width: 650px;
+    height: 650px;
+    margin : 180px auto 0;
     background-color: black;
     border-radius:999999px;
     display:flex;
@@ -110,4 +180,17 @@ html {
     border-radius: 999999px;
     background-color: rgb(168, 114, 52);
 }
+
+/*Logo en toutes lettres*/
+.logo{
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200px;
+    font-weight: 900;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 8px 8px 8px orange;
+    
+     
+    
+}
+
 
