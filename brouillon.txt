@@ -1,0 +1,17 @@
+Sav adsl SFR avec Circet France
+- Expertise de ligne adsl en NRA 
+- Dépannage et essai ligne chez le client 
+- Changement de box 
+
+
+NRA : noeud de raccordement d'abonnés
+
+
+Remise à niveau des répartiteurs avec Proretel pour Orange 
+- remise en conformité des RE et NRA
+- dépose des jarretières et des réglettes désinvesties 
+- changement des modules pouyet par des réglettes hd 192
+
+RE : répartiteurs
+SR : sous répartiteur
+PC : point de coupure
