@@ -808,9 +808,11 @@ grid-area: 3 / 2 / 4 / 3;
     }
 
     .logo-franceactive{
+        margin-left:0px;
         width:70vw;
     }
     .logo-initiativefrance{
+        margin-left:0px;
         width:70vw;
     }
 }
