@@ -742,13 +742,17 @@ grid-area: 3 / 2 / 4 / 3;
     width:200px;
 }
 .logo-franceactive{
+    margin-left:200px;
     width:300px;
 }
 .logo-laregion{
+    margin-top : -70px;
+    margin-left:170px;
     width:300px;
 }
 
 .logo-initiativefrance{
+    margin-left:170px;
     width:300px;
 }
 
@@ -795,6 +799,7 @@ grid-area: 3 / 2 / 4 / 3;
         width: 30vw;
     }
     .logo-laregion{
+        margin:0px;
         width : 70vw;
     }
     .logo-SFR{
