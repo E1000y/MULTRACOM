@@ -369,53 +369,6 @@ header nav ul li a:hover::after{
 
 
 
-/*section footer*/
-
-footer{
-    width:auto;
-    height:250px;
-    background-color: #fff;
-}
-
-
-
-.footer-logo{
-    color:rgb(60,100,175);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-    font-weight: 900;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 4px 4px 4px orange;
-    display:table;
-    
-     
-    
-}
-
-.footer-logo img{
-    height:45px;
-    vertical-align: -8%;
-}
-.sous-titre{
-    position:absolute;
-    font-size:25px;
-    display: center;
-    left : 57px;
-
-}
-/*---- responsive du footer---- */
-@media screen and (max-width:380px){
-
-    .footer-logo{
-        font-size: 9vw;
-    }
-    .footer-logo img{
-        height:9vw;
-    }
-    .sous-titre{
-        font-size: 4vw;
-        left : 12vw;
-    }
-}
 
 /* Section asymétrique */
 
@@ -852,4 +805,64 @@ grid-area: 3 / 2 / 4 / 3;
     .logo-initiativefrance{
         width:300px;
     }
+}
+
+
+/*-----Footer et adresse ----*/
+
+/*section footer*/
+
+footer{
+    width:auto;
+    height:250px;
+    background-color: #fff;
+    text-align:center;
+}
+
+
+
+.footer-logo{
+    padding-top: 40px;
+    margin:auto;
+    color:rgb(60,100,175);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 4px 4px 4px orange;
+    display:table;
+}
+
+.footer-logo img{
+    height:45px;
+    vertical-align: -8%;
+}
+.sous-titre{
+    margin:auto;
+    color:rgb(60,100,175);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 4px 4px 4px orange;
+
+}
+/*---- responsive du footer---- */
+@media screen and (max-width:380px){
+
+    .footer-logo{
+        font-size: 9vw;
+    }
+    .footer-logo img{
+        height:9vw;
+    }
+    .sous-titre{
+        font-size: 4vw;
+        left : 12vw;
+    }
+}
+
+
+
+address{
+    padding:40px;
+    font-size: 20px;
 }
