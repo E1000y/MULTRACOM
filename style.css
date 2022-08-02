@@ -793,19 +793,22 @@ grid-area: 3 / 2 / 4 / 3;
     }
 
     .logos{
-        width: 20vw;
+        width: 30vw;
     }
     .logo-circet{
         width: 30vw;
     }
+
+    .logo-SFR{
+        width:30vw;
+        height:30vw;
+    }
+
     .logo-laregion{
         margin:0px;
         width : 70vw;
     }
-    .logo-SFR{
-        width:35vw;
-        height:35vw;
-    }
+   
 
     .logo-franceactive{
         margin-left:0px;
