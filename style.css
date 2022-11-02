@@ -375,7 +375,7 @@ header nav ul li a:hover::after{
 
 .section-asymetrique{
     display:grid;
-    grid-template: 200px repeat(4, auto)  / 1fr 600px 1fr;
+    grid-template: 200px repeat(4, auto) 100px / 1fr 600px 1fr;
     background-color: #f1f1f1;
 }
 
@@ -403,7 +403,6 @@ header nav ul li a:hover::after{
 grid-area: 3 / 2 / 4 / 3;
 }
 
-/*rajouté le 31/10/2022*/
 .bloc-3, 
 .img-grid-3{
     grid-area : 4/2/5/3;
@@ -414,7 +413,6 @@ grid-area: 3 / 2 / 4 / 3;
     grid-area : 5/2/6/3;
 }
 
-/*fin rajout*/
 
 
 .bloc{
@@ -566,7 +564,7 @@ grid-area: 3 / 2 / 4 / 3;
     
     .section-asymetrique{
         
-        grid-template: 200px repeat(6 , auto) 100px / 1fr 600px 1fr;
+        grid-template: 200px repeat(10 , auto) 100px / 1fr 600px 1fr;
     }
 
     .section-asymetrique h2{
@@ -586,10 +584,17 @@ grid-area: 3 / 2 / 4 / 3;
     .bloc-right{
         grid-area: 4 / 2 / 5 / 3;
     }
+    
+    .bloc-2{
+        grid-area : 5 / 2 / 6 / 3;
+    }
 
     .img-grid-2{
-        grid-area: 5 / 2 / 6 / 3;
+        grid-area : 6 / 2 / 7 / 3;
     }
+
+
+
 
     .bloc{
         height:100%;
@@ -715,7 +720,8 @@ grid-area: 3 / 2 / 4 / 3;
     grid-area: 3/2/3/4;
     display:flex;
     flex-direction:row;
-
+    font-size: 50px;
+    
 
 }
 
@@ -724,9 +730,10 @@ grid-area: 3 / 2 / 4 / 3;
 
 }
 .logo-SFR{
-    top:25px;
-    left:25px;
+  
+    padding-top :20px;
     width:200px;
+    height:200px
   
 }
 
@@ -758,6 +765,10 @@ grid-area: 3 / 2 / 4 / 3;
 
 .logo-orange{
     width:200px;
+}
+.logo-Bouygues{
+    width : 300px;
+    padding-left :50px;
 }
 .logo-franceactive{
     margin-left:200px;
@@ -875,6 +886,16 @@ footer{
     font-weight: 900;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 4px 4px 4px orange;
 
+}
+
+.fb{
+    display:inline-block;
+    width :30px;
+    height : 30px;
+    vertical-align: -5px;
+    margin-left : 15px;
+   
+    
 }
 /*---- responsive du footer---- */
 @media screen and (max-width:380px){
