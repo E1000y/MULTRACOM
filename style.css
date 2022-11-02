@@ -375,13 +375,13 @@ header nav ul li a:hover::after{
 
 .section-asymetrique{
     display:grid;
-    grid-template: 200px repeat(3, auto)  / 1fr 600px 1fr;
+    grid-template: 200px repeat(4, auto)  / 1fr 600px 1fr;
     background-color: #f1f1f1;
 }
 
 
 .section-asymetrique h2{
-    grid-area: 1 / 1 / 2 / -1;
+    grid-area: 1 / 1 / 2 /-1;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -399,8 +399,23 @@ header nav ul li a:hover::after{
 
 .bloc-right,
 .img-grid-2{
+    /*deb row deb col fin row fin col*/
 grid-area: 3 / 2 / 4 / 3;
 }
+
+/*rajouté le 31/10/2022*/
+.bloc-3, 
+.img-grid-3{
+    grid-area : 4/2/5/3;
+}
+
+.bloc-4,
+.img-grid-4{
+    grid-area : 5/2/6/3;
+}
+
+/*fin rajout*/
+
 
 .bloc{
     background:rgb(60, 100, 175);
@@ -418,10 +433,12 @@ grid-area: 3 / 2 / 4 / 3;
     position: relative;
 }
 
-.img-grid-1{
+.img-grid-1, 
+.img-grid-3{
     top: 130px;
     left : 20px;
 }
+
 
 .bloc-left{
     left:-300px;
@@ -462,7 +479,8 @@ grid-area: 3 / 2 / 4 / 3;
     right:-300px;
 }
 
-.img-grid-2{
+.img-grid-2,
+.img-grid-4{
     top:130px;
     left:100px;
 }
@@ -584,12 +602,12 @@ grid-area: 3 / 2 / 4 / 3;
         height: 750px;
     }
 
-    .img-grid-1{
+    .img-grid-1, .img-grid-3{
         top:0px;
         left:0px;
     }
 
-    .img-grid-2{
+    .img-grid-2, .img-grid-4{
         top:0px;
         left:0px;
     }
