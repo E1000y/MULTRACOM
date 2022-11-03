@@ -581,16 +581,26 @@ grid-area: 3 / 2 / 4 / 3;
         grid-area: 3 / 2 / 4 /3;
     }
 
-    .bloc-right{
+    .bloc-2{
         grid-area: 4 / 2 / 5 / 3;
     }
     
-    .bloc-2{
+    .img-grid-2{
         grid-area : 5 / 2 / 6 / 3;
     }
 
-    .img-grid-2{
+    .bloc-3{
         grid-area : 6 / 2 / 7 / 3;
+    }
+    .img-grid-3{
+        grid-area : 7 / 2 / 8 / 3;
+    }
+    .bloc-4{
+        grid-area : 8 / 2 / 9 / 3;
+    }
+
+    .img-grid-4{
+        grid-area : 9 / 2 / 10 / 3;
     }
 
 
