@@ -742,14 +742,13 @@ grid-area: 3 / 2 / 4 / 3;
 }
 .logo-SFR{
   
-    padding-top :20px;
     width:200px;
     height:200px
   
 }
 
 
-.partenaires .proretel{
+.partenaires .sogetrel{
     grid-area: 3/4/3/4;
     display:flex;
     justify-content: center;
@@ -815,9 +814,19 @@ grid-area: 3 / 2 / 4 / 3;
     }
 
     .logos{
-        width: 200px;
+        width: 300px;
         padding-top: 50px;
         padding-bottom:50px;
+    }
+    .circet, .sogetrel{
+        display : flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .orange{
+        width : 80%;
     }
     
 }
