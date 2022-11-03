@@ -615,6 +615,7 @@ grid-area: 3 / 2 / 4 / 3;
         position:static;
         width : 600px;
         height: 750px;
+        margin-bottom:0px;
     }
 
     .img-grid-1, .img-grid-3{
