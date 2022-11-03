@@ -679,6 +679,7 @@ grid-area: 3 / 2 / 4 / 3;
 
     .section-asymetrique h2 {
         font-size: 30px ;
+        text-align:center;
     }
 
     .bloc, .img-grid{
@@ -692,8 +693,9 @@ grid-area: 3 / 2 / 4 / 3;
 
     .bloc-txt-right{
         width:100%;
-    }
 
+    }
+    
 
 
  }
@@ -732,6 +734,7 @@ grid-area: 3 / 2 / 4 / 3;
     display:flex;
     flex-direction:row;
     font-size: 50px;
+    column-gap : 10px;
     
 
 }
@@ -798,7 +801,7 @@ grid-area: 3 / 2 / 4 / 3;
 /*---responsive de la partie partenaires ---*/
 
 
-@media screen and (max-width:2000px) {
+@media screen and (max-width:2200px) {
 
     .partenaires {
 
@@ -815,8 +818,12 @@ grid-area: 3 / 2 / 4 / 3;
 
     .logos{
         width: 300px;
-        padding-top: 50px;
-        padding-bottom:50px;
+        
+        padding: 50px;
+        margin : 5px;
+    }
+    .logo-SFR{
+        height:300px;
     }
     .circet, .sogetrel{
         display : flex;
@@ -831,13 +838,20 @@ grid-area: 3 / 2 / 4 / 3;
     
 }
 
-@media screen and (max-width:450px) {
+
+@media screen and (max-width:900px) {
 
     .partenaires h2{
         font-size: 10vw;
     }
+
+    .partenaires{
+        
+    }
+
     .circet{
         display:flex;
+        flex-direction: column;
         align-items: center;
     }
 
