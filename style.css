@@ -706,7 +706,7 @@ grid-area: 3 / 2 / 4 / 3;
 .parallaxe{
     width : 100%;
     height : 300px;
-    background : url(logos/network.jpg);
+    background : url(Logos/network.jpg);
     background-position: center;
     background-attachment: fixed;
 
