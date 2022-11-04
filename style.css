@@ -670,7 +670,7 @@ grid-area: 3 / 2 / 4 / 3;
  @media screen and (max-width:600px) {
     
     .section-asymetrique{
-        grid-template: 150px repeat(6,auto) 100px/ 100%;
+        grid-template: 150px repeat(8,auto) 100px/ 100%;
     }
 
     .ligne-gauche, .ligne-droite{
