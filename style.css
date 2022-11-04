@@ -845,26 +845,32 @@ grid-area: 3 / 2 / 4 / 3;
         font-size: 10vw;
     }
 
-    .partenaires{
-        
-    }
-
-    .circet{
+    .partenaires .circet{
         display:flex;
         flex-direction: column;
         align-items: center;
+        
     }
 
+
+    .partenaires .sogetrel{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+
     .logos{
-        width: 30vw;
+        width: 50vw;
     }
     .logo-circet{
-        width: 30vw;
+        width: 50vw;
     }
 
     .logo-SFR{
-        width:30vw;
-        height:30vw;
+        width:50vw;
+        height:50vw;
     }
 
     .logo-laregion{
